@@ -1,0 +1,44 @@
+@import "../color.scss";
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $coffee-stain;
+  }
+  
+  .left_tool {
+    float: left;
+  }
+
+  .right_tool{
+      float: right
+  }
+
+  .center_tool{
+      float: center
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: $coffee-stain;
+  }
+  
+  .active {
+    background-color: $light-olive;
+  }
+
+  .title{
+      text-align: center;
+      color: $deep-olive;
+      padding: 14px 16px;
+      text-decoration: bold;
+  }
